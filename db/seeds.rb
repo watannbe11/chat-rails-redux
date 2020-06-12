@@ -10,8 +10,8 @@ Channel.destroy_all
 User.destroy_all
 
 puts 'User creating'
-User.create(email:'test1@gmail.com', password: 123456)
-User.create(email:'test2@gmail.com', password: 123456)
+User.create(email:'test1@gmail.com', password: 123456, nickname: "test1")
+User.create(email:'test2@gmail.com', password: 123456, nickname: "test2")
 puts 'Done'
 
 puts 'Channel creating'
