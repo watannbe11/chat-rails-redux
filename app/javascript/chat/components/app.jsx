@@ -6,7 +6,7 @@ const App = (props) => {
   return (
     <div className="messaging-wrapper">
       <div className="logo-container">
-        <img className="messaging-logo" src="assets/images/logo.svg" alt="logo" />
+        <i class="far fa-comments"></i>
       </div>
       <ChannelList selectedChannel={props.match.params.channel} />
       <MessageList selectedChannel={props.match.params.channel} />
